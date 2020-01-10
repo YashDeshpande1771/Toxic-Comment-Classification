@@ -1,5 +1,6 @@
 # Toxic-Comment-Classification
-
+## Aim
+To build a multi-headed model that’s capable of detecting different types of of toxicity like threats, obscenity, insults, and identity-based hate better than Perspective’s current models. You’ll be using a dataset of comments from Wikipedia’s talk page edits. Improvements to the current model will hopefully help online discussion become more productive and respectful.
 ## LSTM + Max-Pooling
 Recurrent Neural Networks have been widely used in Text Classification Problems. The variant of RNN known as Long Short term Memory has become popular over the last few years because of its ability to forget and update features that allow it to overcome vanishing and exploding gradient problems. In our problem, Bi-directional LSTM allows us to learn important features in long comments. Moreover, with our use of the 1-D max-pooling layer, we have effectively reduced the dimensionality of the output of the LSTM layer which has improved the ability of the neural network to learn features.
 
